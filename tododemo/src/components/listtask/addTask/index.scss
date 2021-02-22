@@ -1,0 +1,15 @@
+.body-addTask {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: solid 1px #7b82855e;
+  .input {
+    width: 100%;
+  }
+  .addTask {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

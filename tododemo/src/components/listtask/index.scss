@@ -1,0 +1,25 @@
+
+.task {
+  display: flex;
+  border-bottom: solid 1px #7b82855e;
+  margin: 5px 0 5px 0;
+  padding-bottom: 5px;
+  .span {
+    margin-left: 22px;
+    .changeText {
+      color:blue;
+    }
+  }
+
+  .checkbox {
+    .checkbox-input {
+      margin: unset;
+      position: unset;
+      margin-left: 9.5px;
+    }
+  }
+}
+.reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
